@@ -94,6 +94,9 @@ public class Card {
 	 */
 	@Override
 	public String toString() {
+		/* Almost. You forgot to throw in spaces between
+		 * words.
+		 */
 		String cardString = "" + rank + "of" + suit + "(pointValue)" + pointValue;
 		return cardString;
 
